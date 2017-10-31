@@ -1,0 +1,16 @@
+[Match 1]
+totalmatches = 1
+team1.1 = 
+team2.1 = 
+stage = stages/stage0-720.def
+
+[Match 1 Round 1]
+winningteam = 1
+timeleft = 0.00
+p1.name = dArwIn_G0_0
+p1.life = 798
+p1.power = 175
+p2.name = Kung Fu Man
+p2.life = 603
+p2.power = 629
+

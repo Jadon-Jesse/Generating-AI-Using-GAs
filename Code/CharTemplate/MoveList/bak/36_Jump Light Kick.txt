@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Jump Light Kick
+[State -1, Jump Light Kick]
+type = ChangeState
+value = 630
+triggerall = roundstate = 2
+triggerall = random < 50

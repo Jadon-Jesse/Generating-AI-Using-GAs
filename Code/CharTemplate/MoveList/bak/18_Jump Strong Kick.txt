@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Jump Strong Kick
+[State -1, Jump Strong Kick]
+type = ChangeState
+value = 640
+triggerall = roundstate = 2
+triggerall = random < 50

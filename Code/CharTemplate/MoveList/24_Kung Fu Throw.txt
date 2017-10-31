@@ -1,0 +1,11 @@
+;---------------------------------------------------------------------------
+;Kung Fu Throw
+[State -1, Kung Fu Throw]
+type = ChangeState
+value = 800
+triggerall = roundstate = 2
+triggerall = random < 50
+triggerall = stateno != 100
+triggerall = statetype = S
+triggerall = var(59) = 1 
+triggerall = Ctrl 

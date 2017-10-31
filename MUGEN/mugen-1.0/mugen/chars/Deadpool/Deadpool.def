@@ -1,0 +1,31 @@
+; Definition file for Kung Fu Man
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name ="Deadpool"
+displayname ="Deadpool"
+versiondate =09/06/13
+mugenversion =1.0
+author ="Unlimited Team - sprites, Wucash - code"
+pal.defaults	=1,2,3,4,5,6
+
+; Files for the player
+[Files]
+cmd     =Deadpool.cmd
+cns     =Deadpool.cns
+st      =Deadpool.cns
+stcommon =common1.cns
+sprite  =Deadpool.sff
+anim    =Deadpool.air
+sound   =Deadpool.snd
+pal1=px01.act
+pal2=px02.act
+pal3=px04.act
+pal4=px05.act
+pal5=px06.act
+pal6=px03.act
+
+[Arcade]
+intro.storyboard =intro.def
+ending.storyboard=ending.def

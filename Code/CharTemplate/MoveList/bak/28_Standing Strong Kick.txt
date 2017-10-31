@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Standing Strong Kick
+[State -1, Standing Strong Kick]
+type = ChangeState
+value = 240
+triggerall = roundstate = 2
+triggerall = random < 50

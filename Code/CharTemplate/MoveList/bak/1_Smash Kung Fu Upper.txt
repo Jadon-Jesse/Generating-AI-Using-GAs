@@ -1,0 +1,9 @@
+;---------------------------------------------------------------------------
+;Smash Kung Fu Upper (uses one super bar)
+[State -1, Smash Kung Fu Upper]
+type = ChangeState
+value = 3050
+triggerall = roundstate = 2
+triggerall = random < 50
+triggerall = power >= 1000
+triggerall = statetype != A

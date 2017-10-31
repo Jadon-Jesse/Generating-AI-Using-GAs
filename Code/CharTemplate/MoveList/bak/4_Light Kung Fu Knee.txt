@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Light Kung Fu Knee
+[State -1, Light Kung Fu Knee]
+type = ChangeState
+value = 1050
+triggerall = roundstate = 2
+triggerall = random < 50

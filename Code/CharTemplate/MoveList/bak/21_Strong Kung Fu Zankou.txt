@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Strong Kung Fu Zankou
+[State -1, Strong Kung Fu Zankou]
+type = ChangeState
+value = 1410
+triggerall = roundstate = 2
+triggerall = random < 50

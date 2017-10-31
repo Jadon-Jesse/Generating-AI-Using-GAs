@@ -1,0 +1,40 @@
+;-------------------------------------------------------------------
+;Evil Ken by Reu Tenshin and KingTigre
+;-------------------------------------------------------------------
+
+; Player information
+[Info]
+name = "Evil Ken"
+displayname = "Evil Ken"
+versiondate = 12,13,2000
+mugenversion = 11,22,2000
+author = "Reu"
+pal.defaults = 1,2,3,4,5,6,7,8,9,10,11,12
+
+; Files for the player
+[Files]
+cmd     = evilken.cmd   ;Command set
+cns     = evilken.cns   ;Constants
+st      = evilken.cns   ;States
+stcommon = common1.cns  ;Common states
+sprite  = evilken.sff   ;Sprite
+anim    = evilken.air   ;Animation
+sound   = evilken.snd   ;Sound
+pal1    = evilken.act
+pal2    = evilken2.act
+pal3    = evilken3.act
+pal4    = evilken4.act
+pal5    = evilken5.act
+pal6    = evilken6.act
+pal7    = cvsred.act
+pal8    = cvsblue.act
+pal9    = cvsmagenta.act
+pal10   = cvspurple.act
+pal11   = cvsgreen.act
+pal12   = cvsorange.act
+
+;------------------------------------------------------------------
+; Intro Cutscene and Ending
+;[Arcade]
+;intro.storyboard  = EvilKenIntro.def
+;ending.storyboard = EvilKenEnding.def

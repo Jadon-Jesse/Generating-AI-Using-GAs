@@ -1,0 +1,152 @@
+;=======================
+;Avengers vs. X-Men
+;Deadpool Intro
+;Storyboard Author: Acey
+;=======================
+
+[Info]
+localcoord = 640,480
+
+[SceneDef]
+spr = Deadpool.sff
+font0 = Font.def
+startscene = 0
+
+;-------------------------Blank Sceen
+[Scene 0]
+clearcolor = 0,0,0
+end.time =5
+
+;-------------------------Move List
+[Scene 1]
+clearcolor = 0,0,0
+bg.name = Scene1bg
+fadein.time = 20
+fadein.col = 0,0,0
+fadeout.time = 20
+fadeout.col = 0,0,0
+end.time = 1700
+bgm = intro.mp3       
+bgm.loop = 0
+layerall.pos = 27,418
+layer1.text = "by The Unlimited"
+layer1.font = 0,0,1,46,46,46 
+
+[Scene1bgDef]
+
+[Scene1bg Move List 01]
+type = anim
+actionno = 1
+start = -377,-5
+tile = 0,0
+id=1
+
+[Scene1bg Move List 02]
+type = anim
+actionno = 2
+start = -377,-5
+tile = 0,0
+
+[Scene1bg Move List 03]
+type = anim
+actionno = 3
+start = -377,-5
+tile = 0,0
+
+[Scene1bgCtrlDef 1]
+CtrlID = 1
+[Scene1bgCtrl 1.1]
+type = Velset
+time = 0
+x = 0
+y = 0
+
+[Scene1bg Panel]
+type = anim
+actionno = 0
+start = -320,0
+
+[Scene1bg Character Sprite]
+type = anim
+actionno = 4
+start = 247,387
+
+[Scene1bg Small Name]
+type = anim
+actionno = 5
+start = 211,413
+
+;-------------------------Animations
+;Panel animation
+[Begin Action 0]
+4050,4, 0,0, 1
+
+;Move List animation
+[Begin Action 1]
+4050,3, 0,0, 1
+
+;Move List animation
+[Begin Action 2]
+4050,2, 0,0, 1000
+4050,2, 0,0, 2,, AS240D16
+4050,2, 0,0, 2,, AS224D32
+4050,2, 0,0, 2,, AS208D48
+4050,2, 0,0, 2,, AS192D64
+4050,2, 0,0, 2,, AS176D80
+4050,2, 0,0, 2,, AS160D96
+4050,2, 0,0, 2,, AS144D112
+4050,2, 0,0, 2,, AS128D128
+4050,2, 0,0, 2,, AS112D144
+4050,2, 0,0, 2,, AS96D160
+4050,2, 0,0, 2,, AS80D176
+4050,2, 0,0, 2,, AS64D192
+4050,2, 0,0, 2,, AS48D208
+4050,2, 0,0, 2,, AS32D224
+4050,2, 0,0, 2,, AS16D240
+-1,-1, 0,0, -1
+
+;Move List animation
+[Begin Action 3]
+4050,1, 0,0, 500
+4050,1, 0,0, 2,, AS240D16
+4050,1, 0,0, 2,, AS224D32
+4050,1, 0,0, 2,, AS208D48
+4050,1, 0,0, 2,, AS192D64
+4050,1, 0,0, 2,, AS176D80
+4050,1, 0,0, 2,, AS160D96
+4050,1, 0,0, 2,, AS144D112
+4050,1, 0,0, 2,, AS128D128
+4050,1, 0,0, 2,, AS112D144
+4050,1, 0,0, 2,, AS96D160
+4050,1, 0,0, 2,, AS80D176
+4050,1, 0,0, 2,, AS64D192
+4050,1, 0,0, 2,, AS48D208
+4050,1, 0,0, 2,, AS32D224
+4050,1, 0,0, 2,, AS16D240
+-1,-1, 0,0, -1
+
+;Stance Animation
+[Begin Action 4]
+0,0, 0,0, 16,H
+0,1, 0,0, 8,H
+0,2, 0,0, 8,H
+0,3, 0,0, 8,H
+0,2, 0,0, 8,H
+0,1, 0,0, 8,H
+0,0, 0,0, 16,H
+0,1, 0,0, 8,H
+0,2, 0,0, 8,H
+0,3, 0,0, 8,H
+0,2, 0,0, 8,H
+0,5, 0,0, 8,H
+0,6, 0,0, 16,H
+0,5, 0,0, 8,H
+0,2, 0,0, 8,H
+0,3, 0,0, 8,H
+0,2, 0,0, 8,H
+0,1, 0,0, 8,H
+
+;Name Icon Animation
+[Begin Action 5]
+9000,50, 0,0, 1
+

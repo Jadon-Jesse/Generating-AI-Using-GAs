@@ -1,0 +1,10 @@
+;---------------------------------------------------------------------------
+;Run Fwd
+[State -1, Run Fwd]
+type = ChangeState
+value = 100
+triggerall = roundstate = 2
+triggerall = random < 50
+triggerall = var(59) = 1 
+triggerall = statetype = S
+triggerall = Ctrl 

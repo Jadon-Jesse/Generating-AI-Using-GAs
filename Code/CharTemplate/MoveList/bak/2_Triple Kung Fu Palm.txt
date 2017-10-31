@@ -1,0 +1,8 @@
+;---------------------------------------------------------------------------
+;Triple Kung Fu Palm (uses one super bar)
+[State -1, Triple Kung Fu Palm]
+type = ChangeState
+value = 3000
+triggerall = roundstate = 2
+triggerall = random < 50
+triggerall = power >= 1000

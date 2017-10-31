@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Crouching Light Kick
+[State -1, Crouching Light Kick]
+type = ChangeState
+value = 430
+triggerall = roundstate = 2
+triggerall = random < 50

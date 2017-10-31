@@ -1,0 +1,10 @@
+;---------------------------------------------------------------------------
+;Stand Light Punch
+[State -1, Stand Light Punch]
+type = ChangeState
+value = 200
+triggerall = roundstate = 2
+triggerall = random < 50
+triggerall = var(59) = 1 
+triggerall = statetype = S
+triggerall = Ctrl 

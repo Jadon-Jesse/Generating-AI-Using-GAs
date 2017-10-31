@@ -1,0 +1,10 @@
+;---------------------------------------------------------------------------
+;Stand Strong Punch
+[State -1, Stand Strong Punch]
+type = ChangeState
+value = 210
+triggerall = roundstate = 2
+triggerall = random < 50
+triggerall = var(59) = 1 
+triggerall = statetype = S
+triggerall = Ctrl 

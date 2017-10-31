@@ -1,0 +1,26 @@
+[Match 1]
+totalmatches = 1
+team1.1 = 
+team2.1 = 
+stage = stages/stage0-720.def
+
+[Match 1 Round 1]
+winningteam = 0
+timeleft = 0.00
+p1.name = dArwIn_G1_0
+p1.life = 900
+p1.power = 0
+p2.name = dArwIn_G0_1
+p2.life = 900
+p2.power = 0
+
+[Match 1 Round 2]
+winningteam = 0
+timeleft = 0.00
+p1.name = dArwIn_G1_0
+p1.life = 900
+p1.power = 0
+p2.name = dArwIn_G0_1
+p2.life = 900
+p2.power = 0
+

@@ -1,0 +1,8 @@
+;---------------------------------------------------------------------------
+;Fast Kung Fu Knee (1/3 super bar)
+[State -1, Fast Kung Fu Knee]
+type = ChangeState
+value = 1070
+triggerall = roundstate = 2
+triggerall = random < 50
+triggerall = power >= 330

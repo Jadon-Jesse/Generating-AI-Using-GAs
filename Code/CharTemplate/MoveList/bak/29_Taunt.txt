@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Taunt
+[State -1, Taunt]
+type = ChangeState
+value = 195
+triggerall = roundstate = 2
+triggerall = random < 50

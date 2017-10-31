@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Jump Light Punch
+[State -1, Jump Light Punch]
+type = ChangeState
+value = 600
+triggerall = roundstate = 2
+triggerall = random < 50

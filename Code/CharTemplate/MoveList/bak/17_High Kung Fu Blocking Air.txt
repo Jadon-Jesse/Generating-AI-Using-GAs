@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;High Kung Fu Blocking (Air)
+[State -1, High Kung Fu Blocking Low]
+type = ChangeState
+value = 1340
+triggerall = roundstate = 2
+triggerall = random < 50

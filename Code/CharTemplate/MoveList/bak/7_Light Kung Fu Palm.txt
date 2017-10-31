@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Light Kung Fu Palm
+[State -1, Light Kung Fu Palm]
+type = ChangeState
+value = 1000
+triggerall = roundstate = 2
+triggerall = random < 50

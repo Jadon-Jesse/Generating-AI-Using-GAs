@@ -1,0 +1,37 @@
+; AI switch -> ON
+[State -1, Activate AI]
+type = Varset
+triggerall = var(59) != 1
+trigger1 = command = "TripleKFPalm"
+trigger2 = command = "SmashKFUpper"
+trigger3 = command = "blocking"
+trigger4 = command = "upper_x"
+trigger5 = command = "upper_y"
+trigger6 = command = "upper_xy"
+trigger7 = command = "QCF_x"
+trigger8 = command = "QCF_y"
+trigger9 = command = "QCF_xy"
+trigger10 = command = "QCF_a"
+trigger11 = command = "QCF_b"
+trigger12 = command = "QCF_ab"
+trigger13 = command = "FF_ab"
+trigger14 = command = "FF_a"
+trigger15 = command = "FF_b"
+trigger16 = command = "FF"
+trigger17 = command = "BB"
+trigger18 = command = "recovery"
+trigger19 = command = "down_a"
+trigger20 = command = "down_b"
+trigger21 = command = "a"
+trigger22 = command = "b"
+trigger23 = command = "c"
+trigger24 = command = "x"
+trigger25 = command = "y"
+trigger26 = command = "z"
+trigger27 = command = "start"
+trigger28 = command = "holdfwd"
+trigger29 = command = "holdback"
+trigger30 = command = "holdup"
+trigger31 = command = "holddown"
+v = 59
+value = 1

@@ -1,0 +1,12 @@
+﻿[FNT v2]
+fntversion = 2,00
+name = "Archery"
+author = "Unknown"
+
+[Def]
+Type = truetype
+Size = 40,40		;Only height is used for truetype fonts.
+Spacing = 1,1 		;Only height is used for truetype fonts.
+Offset = 0,5
+File = Font.ttf
+Blend = 1

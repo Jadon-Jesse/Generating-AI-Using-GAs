@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Crouching Light Punch
+[State -1, Crouching Light Punch]
+type = ChangeState
+value = 400
+triggerall = roundstate = 2
+triggerall = random < 50

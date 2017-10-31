@@ -1,0 +1,8 @@
+;---------------------------------------------------------------------------
+;Far Kung Fu Zankou
+[State -1, Far Kung Fu Zankou]
+type = ChangeState
+value = 1420
+triggerall = roundstate = 2
+triggerall = random < 50
+triggerall = power >= 330

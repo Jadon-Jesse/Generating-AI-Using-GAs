@@ -1,0 +1,67 @@
+;=======================
+;Avengers vs. X-Men
+;Deadpool Ending
+;Storyboard Author: Acey
+;=======================
+
+[Info]
+localcoord = 640,480
+
+[SceneDef]
+spr = Deadpool.sff
+font0 = Font.def
+startscene = 0
+
+;-------------------------Blank Sceen
+[Scene 0]
+clearcolor = 0,0,0
+end.time =5
+
+;-------------------------Move List
+[Scene 1]
+clearcolor = 0,0,0
+bg.name = Scene1bg
+fadein.time = 20
+fadein.col = 0,0,0
+fadeout.time = 20
+fadeout.col = 0,0,0
+end.time = 5000
+bgm = Ending.mp3       
+bgm.loop = 0
+layerall.pos = 55,298
+layer1.text = "Pff... you call yourself a gamer? \nMy grandma could do better than \nthat. Now start over and don't even \nthink of pressing "F1". \n"
+layer1.font = 0,0,1,255,255,255
+layer1.textdelay = 5
+
+[Scene1bgDef]
+
+[Scene1bg Panel]
+type = anim
+actionno = 0
+start = -320,0
+
+[Scene1bg Portrait]
+type = anim
+actionno = 1
+start = -57,101
+tile = 0,0
+id=1
+
+[Scene1bgCtrlDef 1]
+CtrlID = 1
+[Scene1bgCtrl 1.1]
+type = Velset
+time = 0
+x = 0
+y = 0
+
+;-------------------------Animations
+;Panel animation
+[Begin Action 0]
+4050,5, 0,0, 1
+
+;Move List animation
+[Begin Action 1]
+9000,2, 0,0, 1
+
+

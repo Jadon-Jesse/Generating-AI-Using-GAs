@@ -1,0 +1,7 @@
+;---------------------------------------------------------------------------
+;Strong Kung Fu Blow
+[State -1, Strong Kung Fu Blow]
+type = ChangeState
+value = 1210
+triggerall = roundstate = 2
+triggerall = random < 50
