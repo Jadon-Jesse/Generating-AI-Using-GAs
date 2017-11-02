@@ -491,7 +491,7 @@ def init_assess_df(names, gen):
     gens.fill(gen)
     df_stats = pd.DataFrame({"Gen":gens, "Name":names,"Wins":de,"Loses":de, "Draws":de},columns=["Gen","Name","Wins","Loses","Draws"])
     list_df_stats.append(df_stats)
-    print(df_stats)
+    #print(df_stats)
 
 #Evolve and assess locally using parallel sims
 def evolve_exp_std(num_generations, current_pop):
@@ -550,8 +550,13 @@ def evolve_exp_std(num_generations, current_pop):
             plt.show()
             #save list df stats to csv
             df2 = pd.concat(list_df_stats)
-            name ='Out_{0}Gs.csv'.format(str(num_generations))
+            name ='stats_{0}Gs.csv'.format(str(num_generations))
             df2.to_csv(name)
+            #save list df gen to csv
+            df3 = pd.concat(list_df_gen)
+            nm = 'genlist_{0}Gs.csv'.format(str(num_generations))
+            df3.to_csv(nm)
+            
 def update_gen_from_db(gen, expected_writes):
     # Open database connection
     db = pymysql.connect("jadonjes.heliohost.org","jadonjes_darwin","HackThisDB1","jadonjes_OUTCOME" )
@@ -866,7 +871,7 @@ def experiment_on_cloud(num_generations, current_pop):
 
 num_init_pop = 4
 #Num generations to evolve initial pop for
-num_generations = 2
+num_generations = 3
 
 #Holds character info over eneratuions
 list_df_gen = []
@@ -898,11 +903,11 @@ ratio=[]
 
     
 
-evolve_std(num_generations, init_pop_names)
+#evolve_std(num_generations, init_pop_names)
 #evolve_on_cloud(num_generations, init_pop)
 #lst = assess_on_cloud(init_pop, 0)
 #experiment_on_cloud(num_generations, init_pop)   
-#evolve_exp_std(num_generations, init_pop_names)
+evolve_exp_std(num_generations, init_pop_names)
     
     
     
